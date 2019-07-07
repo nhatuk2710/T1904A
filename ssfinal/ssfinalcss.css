@@ -1,0 +1,241 @@
+body{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+.header-main{
+    width: 100%;
+    background-image: url("img/img1.png");
+    height: 724px;
+}
+.headd{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    background-image: url("img/img1.png");
+    z-index: 100000;
+    top: 0;
+
+    height: 15%;
+    border-right:1px solid #505269;
+    border-left: 1px solid #505269;
+    border-bottom: 2px solid #505269;
+}
+.Active-box{
+    margin-top: 50px;
+}
+.Menu{
+    margin-top: 60px;
+}
+.intro{
+    margin-top: 100px;
+    margin-left: 150px;
+    text-align: center;
+    color: #f8f8f8;
+    height: 30%;
+}
+.button{
+    text-align: center;
+    padding-top: 100px;
+}
+.section-content{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.headd2{
+    margin-top: 50px;
+}
+.logob{
+    margin-top: 50px;
+}
+p{
+    text-transform: uppercase;
+    font-size: 65px;
+    font-family: "Myriad Pro";
+}
+span{
+
+    text-transform: capitalize;
+    font-size: 22px;
+    font-family: "Myriad Pro";
+}
+a {
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    font-size: 15px;
+    color: #f8f8f8;
+}
+.character a{
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    font-size: 15px;
+    color: #f3a2a2;
+}
+i{
+    font-family: 'Cardo', serif;
+    font-size: 36px;
+    color: #e1dee0;
+    text-align: left;
+}
+.slide-control p{
+    font-family: 'Raleway', serif;
+    font-size: 15px;
+    color: #e1dee0;
+    text-transform: uppercase;
+    text-align: left;
+}
+h4{
+    color: #747790;
+    text-transform: capitalize;
+}
+.footer-content1 h3{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.footer-content2 p{
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: #e1dee0;
+}
+.footer-content2 a{
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: #f8f8f8;
+}
+section{
+    width: 100%;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+.section-content1{
+    width: 100%;
+    text-align: center;
+}
+.worka{
+    margin-top:5% ;
+}
+.work1{
+    position: relative;
+    width: 50%;
+}
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e34c48;
+}
+
+.work1:hover .overlay {
+    opacity: 1;
+}
+.work2:hover .overlay {
+    opacity: 1;
+}
+.work3:hover .overlay {
+    opacity: 1;
+}
+.work4:hover .overlay {
+    opacity: 1;
+}
+.work5:hover .overlay {
+    opacity: 1;
+}
+.work6:hover .overlay {
+    opacity: 1;
+}
+.work7:hover .overlay {
+    opacity: 1;
+}
+.work8:hover .overlay {
+    opacity: 1;
+}
+
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.section-content2{
+    width: 100%;
+    margin: 0 auto;
+}
+.character{
+    padding-top: 5%;
+}
+.section-content3{
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 5%;
+}
+.screen-shot{
+    background-image: url("img/client/client1.png");
+    height: 497px;
+}
+.slide-control {
+    height: 497px;
+    background-image: url("img/client/client3.png");
+}
+/*}*/
+/*.pong{*/
+/*    float: right;*/
+/*    width: 10px;*/
+/*    height: 10px;*/
+/*    background: #755d6e;*/
+/*    border-radius: 100%;*/
+/*    margin-top: 10%;*/
+/*    margin-right: 50%;*/
+/*}*/
+/*.screen1{*/
+/*      background-image: url("img/client/client3.png");*/
+/*      height: 500px;*/
+/*  }*/
+footer {
+
+    width: 100%;
+    margin: 0 auto;
+}
+.footer-content{
+    text-align: center;
+    padding-top: 5%;
+}
+.footer-content1{
+    width: 100%;
+    background-color: #3a3e64;
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 3%;
+}
+.footer-content2{
+    height: 10%;
+    padding-top: 1%;
+    background-color: #313454;
+    text-align: center;
+}

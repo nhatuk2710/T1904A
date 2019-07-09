@@ -1,0 +1,23 @@
+.h5_ss2{
+    font-size: 12pt;
+    font-family: Montserrat;
+
+}
+.h2_ss2{
+    font-size: 30 pt;
+    color:#171717;
+    font-family:Montserrat ;
+    opacity: 0.6;
+}
+.h3_ss2{
+    color: #ececec;
+    font-family: [NunitoSans];
+    font-size: 16pt;
+    text-align: ;
+}
+dl>dt{
+    color: #b2b2b2;
+}
+dt{
+    color:#a1a1a1;
+}
